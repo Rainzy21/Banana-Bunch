@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semua Menu UMKM Kami</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        /* Styling untuk konsistensi */
+        .header-bg {
+            background-color: #FDD876;
+        }
+        /* Menggunakan kelas flex/justify-center untuk menengahkan ikon BA */
+        .bi {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="bg-[#FDD876] text-gray-800">
+
+    <header class="sticky top-0 z-50 bg-transparent backdrop-blur-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
+            <a href="index.html" class="text-xl font-bold text-[#D64028]">Banana Bunch</a>
+            <div class="hidden md:flex space-x-6 text-gray-600">
+                <a href="index.html#home" class="hover:text-red-300 transition duration-300">Home</a>
+                <a href="index.html#about-us" class="hover:text-red-300 transition duration-300">About</a>
+                <a href="#" class="font-bold text-red-600 transition duration-300">Menu</a>
+                <a href="index.html#review" class="hover:text-red-300 transition duration-300">Review</a>
+                <a href="index.html#contact" class="hover:text-red-300 transition duration-300">Contact</a>
+            </div>
+            <a href="#" class="bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-300 transition duration-300 hidden md:block">Buy Here</a>
+        </nav>
+    </header>
+
+    <section id="all-menu-page" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <a href="index.html#home" class="text-red-500 hover:underline mb-4 inline-block">← Kembali ke Home</a>
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-red-400">Semua Menu Banana Bunch</h1>
+                <p class="mt-3 text-lg text-gray-600">Jelajahi berbagai pilihan produk lokal berkualitas yang kami tawarkan.</p>
+            </div>
+
+            <div id="full-menu-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02] border border-red-100 overflow-hidden">
+                    <div class="relative">
+                        <img src="/assets/PN.jpg" alt="Rendang Sapi" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 right-2 flex space-x-1">
+                            <span class="px-2 py-0.5 text-xs font-semibold text-white bg-green-600 rounded">Makanan</span>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Pisang Nugget</h3>
+                        <p class="text-sm text-gray-500 mt-1">“Pisang Nugget adalah olahan pisang yang dilapis adonan tepung dan tepung roti, lalu digoreng hingga renyah dengan bagian dalam yang lembut dan manis.”</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-2xl font-bold text-red-400">Rp 15.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02] border border-red-100 overflow-hidden">
+                    <div class="relative">
+                        <img src="/assets/PG.jpg" alt="Rendang Sapi" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 right-2 flex space-x-1">
+                            <span class="px-2 py-0.5 text-xs font-semibold text-white bg-green-600 rounded">Makanan</span>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Pisang Gembung</h3>
+                        <p class="text-sm text-gray-500 mt-1">“Pisang Gembung adalah camilan yang dibuat dari pisang yang digoreng hingga mengembang, menghasilkan tekstur luar yang renyah dan bagian dalam yang lembut. Rasa manis alami pisang menjadi lebih kuat saat digoreng, menjadikannya sajian sederhana namun sangat nikmat.”</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-2xl font-bold text-red-400">Rp 18.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02] border border-red-100 overflow-hidden">
+                    <div class="relative">
+                        <img src="/assets/PC.jpg" alt="Rendang Sapi" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 right-2 flex space-x-1">
+                            <span class="px-2 py-0.5 text-xs font-semibold text-white bg-green-600 rounded">Makanan</span>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Pisang Coklat</h3>
+                        <p class="text-sm text-gray-500 mt-1">“Pisang Coklat Crispy adalah camilan manis yang dibuat dari potongan pisang segar yang dibalut kulit lumpia, diisi cokelat leleh, lalu digoreng hingga renyah keemasan. Perpaduan pisang yang lembut dan cokelat yang lumer menghasilkan rasa manis yang nikmat dengan tekstur luar yang garing."</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-2xl font-bold text-red-400">Rp 18.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02] border border-red-100 overflow-hidden">
+                    <div class="relative">
+                        <img src="/assets/UC.jpg" alt="Rendang Sapi" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 right-2 flex space-x-1">
+                            <span class="px-2 py-0.5 text-xs font-semibold text-white bg-green-600 rounded">Makanan</span>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Ubi Coklat</h3>
+                        <p class="text-sm text-gray-500 mt-1">“Pisang Isi Ubi Coklat adalah pisang goreng berisi ubi manis dan coklat lumer, dengan bagian luar yang crispy dan bagian dalam lembut.”</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-2xl font-bold text-red-400">Rp 18.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02] border border-red-100 overflow-hidden">
+                    <div class="relative">
+                        <img src="/assets/PKL.jpg" alt="Rendang Sapi" class="w-full h-48 object-cover">
+                        <div class="absolute top-2 right-2 flex space-x-1">
+                            <span class="px-2 py-0.5 text-xs font-semibold text-white bg-green-600 rounded">Makanan</span>
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold text-gray-900">Pisang Keju Lumer</h3>
+                        <p class="text-sm text-gray-500 mt-1">“Pisang Keju Lumer adalah camilan pisang goreng dengan lapisan luar yang renyah dan keemasan, berisi keju lembut, gurih, dan lumer di bagian dalam. Perpaduan tekstur crispy di luar dan lumer di dalam membuatnya menjadi santapan manis yang nikmat dan disukai banyak orang.”</p>
+                        <div class="flex justify-between items-center mt-4">
+                            <span class="text-2xl font-bold text-red-400">Rp 18.000</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-gray-400">
+            &copy; 2025 Banana Bunch. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
